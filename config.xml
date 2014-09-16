@@ -6,6 +6,12 @@
 		version     = "1.0" >
 
 	<preference name="phonegap-version" value="3.0.0" />
+	
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	<gap:platform name="ios" />
+	<gap:platform name="winphone" />
+	<gap:platform name="blackberry" />
 
 	<name>FUCS</name>
 
