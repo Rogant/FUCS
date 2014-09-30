@@ -1,0 +1,45 @@
+img{
+    width: 100%;
+ 
+    height: auto;
+}
+#menu{
+    width: 30%;
+    display: block;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+#bars{
+    margin-top: 23%;
+    padding-bottom: 5%;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+}
+#contraseña{
+    margin: 0 auto;
+    text-align: center;
+}
+#sesion{
+    background-color: #F9CC5D;
+}
+
+.submenu a{
+    width: 25%;
+    float: left;
+}
+
+.imagen{
+    float: left;
+}
+p{
+   text-align: justify;
+    font-size: 0.8em;
+}
+
+#btinterno{
+    width: 50%;
+    background-color: #F9CC5D;
+    float: left;
+}
