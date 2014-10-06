@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 	<widget xmlns   = "http://www.w3.org/ns/widgets"
 		xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "com.fucs.ec"
+		id          = "co.kmedia.fucs"
 		versionCode = "1.0" 
 		version     = "1.0" >
 
@@ -9,11 +9,11 @@
 	<preference name="orientation" value="portrait" />
 
 	<preference name="target-device" value="handset" />
+
+	<preference name="StatusBarOverlaysWebView" value="true" />
+	<preference name="StatusBarBackgroundColor" value="#000000" />
 	
-	<preference name="StatusBarOverlaysWebView" value="true"/>
-	<preference name="StatusBarBackgroundColor" value="#000000"/>
-	<preference name="StatusBarStyle" value="lightcontent" />
-	
+	<gap:plugin name="com.phonegap.plugin.statusbar" />
 
 	<name>FUCS</name>
 	<description>
