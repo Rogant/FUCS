@@ -1,17 +1,18 @@
 img{
     width: 100%;
- 
     height: auto;
 }
 #menu{
-    width: 30%;
+    width: ;
+   
     display: block;
     float: left;
     padding-left: 5px;
-    padding-bottom: 5px;
+
 }
 #bars{
-    margin-top: 23%;
+    position: absolute;
+    top: 70%;
     padding-bottom: 5%;
     background-color: transparent;
     padding: 0;
@@ -32,6 +33,7 @@ img{
 
 .imagen{
     float: left;
+    
 }
 p{
    text-align: justify;
@@ -41,5 +43,23 @@ p{
 #btinterno{
     width: 50%;
     background-color: #F9CC5D;
+    float: left;
+}
+#btcongreso{
+    font-size: 0.7em;
+    width: 33%;
+      background-color: #F9CC5D;
+    float: left;
+}
+.submenuCongresos a{
+    width: 33%;
+  height: 41px;
+    float: left;
+}
+.submenuCongresos{
+    width:100%; 
+}
+.SubMenuCursos a{
+    width: 33%;
     float: left;
 }
