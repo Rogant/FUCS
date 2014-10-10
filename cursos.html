@@ -16,23 +16,27 @@
 <body>
     
 <div data-role="page" class="jqm-demos ui-responsive-panel" id="panel-responsive-page1" data-title="Educacion Fucs" data-url="panel-responsive-page1">
-   
+    
     <div data-role="header">
         <img src="images/Header.png"  alt="" >
         <a href="#nav-panel"  data-iconpos="notext" id="bars"><img src="images/Icomenu.png"> </a>
-        <img src="images/Cursos/titulo.png">
-   
-           <div class="SubMenuCursos">
-        <a href=""><img src="images/Diplomados/Medicos.png"> </a>
-        <a href=""><img src="images/Diplomados/enfermeras.png"> </a>
-        
-        <a href=""><img src="images/Diplomados/administrativos.png"> </a>
+        <img src="images/Cursos/Titulo.png">
+        <div data-role="header"  class="submenu">
+                   
+        <li><a href=""><img src="images/Diplomados/Medicos.png" /> </a></li>
+        <li><a href=""><img src="images/Diplomados/enfermeras.png" /> </a></li>
+        <li><a href=""><img src="images/Diplomados/clinicos.png" /> </a></li>
+        <li><a href=""><img src="images/Diplomados/administrativos.png" /> </a></li>
+                           
         </div>
-    </div><!-- /header -->
-  
 
-    <div data-role="home">
+    </div>
+    <!-- /header -->
+  
+     <div role="main" class="ui-content jqm-content jqm-fullwidth" >
+    <div data-role="home" >  
 	<div data-role="content">
+      
         <div id="cursos">
              
             <div id="imagen"><img src="images/Diplomados/imagen.png"></div>
@@ -79,14 +83,14 @@
        <div data-role="navbar">
         <ul>
             <li><a href="Novedades.html">Novedades</a></li>
-            <li><a href="PQR.html">PQR</a></li>
-            <li><a href="ubicacion.html">Sedes</a></li>
+            <li><a href="PQR.html">Preguntas Frecuentes</a></li>
+            <li><a href="ubicacion.html">Sedes y Residencias</a></li>
         </ul>
     </div><!-- /navbar -->
 </div>
 
 
-    <div role="main" class="ui-content jqm-content jqm-fullwidth">
+
     
    <div data-role="panel" data-display="push" data-theme="a" id="nav-panel">
            <ul data-role="listview">
