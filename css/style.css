@@ -2,6 +2,7 @@ img{
     width: 100%;
     height: auto;
 }
+/*MENU*/
 #menu{
     width: 30%;
     display: block;
@@ -24,23 +25,17 @@ img{
 #sesion{
     background-color: #F9CC5D;
 }
-
-
+/*IMAGENES INTERNAS*/
 #imagen{
   width: 100%;
-  max-width: 360px;
        
 }
-.submenu{
-    width: 100%;
-    max-width: 360px;
-}
-.submenu a{
+#logo{
+float: left;
     width: 25%;
-    clear: both;
 }
 
-
+/*BOTONES*/
 #btinterno{
     width: 50%;
     background-color: #F9CC5D;
@@ -52,21 +47,14 @@ img{
     background-color: #F9CC5D;
     float: left;
 }
-.submenuCongresos a{
-    width: 33%;
-    float: left;
-    display: block;
-}
-.submenuCongresos{
-    width:100%; 
-}
+
+/*SUBMENU - */
+
 .SubMenuCursos {
     width: 33%;
    
 }
-li {
-    list-style: none;
-}
+
 .submenu1{
     float: left;
     width: 33%;
@@ -80,6 +68,12 @@ li {
     width: 33%;
 }
 .submenu4{
- float: left;
+ 
     width: 33%;
+}
+/*TEXTO*/
+p{
+    font-size: 0.8em;
+    font-size-adjust: auto;
+    text-align: justify;
 }
