@@ -2,15 +2,22 @@ img{
     width: 100%;
     height: auto;
 }
+.home{
+    padding-top: 15%;
+}
 /*MENU*/
 #menu{
-    width: 30%;
+    width: 31%;
+    height: auto;
     display: block;
     float: left;
-    padding-left: 5px;
+    padding-left: 3px;
+    padding-right: 1px;
+    padding-top: 2%;
     padding-bottom: 5px;
 }
 #bars{
+    height: 20px;
     position: absolute;
     top: 75%;
     padding-bottom: 5%;
