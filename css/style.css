@@ -13,13 +13,13 @@ img{
     float: left;
     padding-left: 3px;
     padding-right: 1px;
-    padding-top: 2%;
+    padding-top: 3%;
     padding-bottom: 5px;
 }
 #bars{
     height: 20px;
     position: absolute;
-    top: 75%;
+    top: 78%;
     padding-bottom: 5%;
     background-color: transparent;
     padding: 0;
