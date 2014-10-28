@@ -88,3 +88,15 @@ h3{
     text-align: center;
 }
 /*ACCORDION*/
+
+.redes img{
+ float: left;
+        width: 50%;
+
+  
+}
+.redes{ float: left;      
+    position: absolute;   
+    left: 75%;
+    padding-bottom: 20%;
+}
