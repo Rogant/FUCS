@@ -100,3 +100,4 @@ h3{
     left: 75%;
     padding-bottom: 20%;
 }
+.ui-page { -webkit-backface-visibility: hidden; }
