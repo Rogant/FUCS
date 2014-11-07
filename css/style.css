@@ -98,6 +98,15 @@ h3{
 .redes{ float: left;      
     position: absolute;   
     left: 75%;
+    padding-top: 10%;
     padding-bottom: 20%;
+     
+
+}
+.redes img{ float: left; 
+
+  
+}
+
 }
 .ui-page { -webkit-backface-visibility: hidden; }
