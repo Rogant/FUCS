@@ -16,6 +16,16 @@ img{
     padding-top: 3%;
     padding-bottom: 5px;
 }
+#menu2{
+    width: 45%;
+    height: auto;
+    display: block;
+    float: left;
+    padding-left: 1.5%;
+    padding-right: 1px;
+    padding-top: 3%;
+    padding-bottom: 5px;
+}
 #bars{
     height: 20px;
     position: absolute;
