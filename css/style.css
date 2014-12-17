@@ -27,7 +27,7 @@ img{
     padding-bottom: 5px;
 }
 #bars{
-    height: 20px;
+    height: 25%;
     position: absolute;
     top: 78%;
     padding-bottom: 5%;
@@ -119,3 +119,14 @@ h4{
 
 }
 .ui-page { -webkit-backface-visibility: hidden; }
+.search{
+    width: 13%;
+    position: absolute;
+    top:75%;
+    left: 80%;
+ 
+}
+#custom-border-radius .ui-btn-icon-notext.ui-corner-all {
+    -webkit-border-radius: .3125em;
+    border-radius: .3125em;
+}
