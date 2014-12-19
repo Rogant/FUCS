@@ -120,10 +120,10 @@ h4{
 }
 .ui-page { -webkit-backface-visibility: hidden; }
 .search{
-    width: 13%;
+    width: 10%;
     position: absolute;
     top:75%;
-    left: 80%;
+    left: 90%;
  
 }
 #custom-border-radius .ui-btn-icon-notext.ui-corner-all {
